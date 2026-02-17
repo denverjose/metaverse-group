@@ -1,0 +1,32 @@
+export const team = [
+  {
+    first_name: "Jose",
+    last_name: "Tollinchi",
+    position: "CEO",
+    img_url: "/images/about-team-1.webp",
+    bio: "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    // phone_number: "555-555-5563",
+    // email: "jdoe@gmail.com",
+    // calendar_link: "https://calendly.com",
+  },
+  {
+    first_name: "Denver",
+    last_name: "Jose  ",
+    position: "Developer",
+    img_url: "/images/about-team-2.webp",
+    bio: "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    // phone_number: "555-555-5559",
+    // email: "jdoe@gmail.com",
+    // calendar_link: "https://calendly.com",
+  },
+  // {
+  //   first_name: "John",
+  //   last_name: "Doe",
+  //   position: "Tax Preparer",
+  //   img_url: "/images/about-team-1.webp",
+  //   bio: "lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  //   // phone_number: "555-555-5556",
+  //   // email: "jdoe@gmail.com",
+  //   // calendar_link: "https://calendly.com",
+  // },
+];
