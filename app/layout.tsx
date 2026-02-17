@@ -5,9 +5,9 @@ import Footer from "@/components/footer/footer";
 import Navbar from "@/components/navbar/navbar";
 import { homepageMetadata } from "@/lib/metadata";
 
-// import ChatForm from "../components/chat-form/chat-form";
+import ChatForm from "../components/chat-form/chat-form";
 
-// import { ChatProvider } from "./providers/chat-provider"; // Import the ChatProvider
+import { ChatProvider } from "./providers/chat-provider"; // Import the ChatProvider
 import { _ThemeProvider } from "./providers/theme-provider";
 
 import type { Metadata } from "next";
@@ -30,12 +30,12 @@ export default function RootLayout({
       <body className={`bg-background-dark ${onest.className}`}>
         <_ThemeProvider>
           <Navbar />
-          {/* <ChatProvider> */}
-          <main className={`min-h-fit ${onest.className}`} id="home">
-            {/* <ChatForm /> */}
-            {children}
-          </main>
-          {/* </ChatProvider> */}
+          <ChatProvider>
+            <main className={`min-h-fit ${onest.className}`} id="home">
+              <ChatForm />
+              {children}
+            </main>
+          </ChatProvider>
           <Footer />
         </_ThemeProvider>
       </body>
